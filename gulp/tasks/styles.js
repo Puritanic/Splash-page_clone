@@ -12,7 +12,7 @@ gulp.task('styles', function(){
 	return gulp.src('./app/assets/styles/app.css')
 		.pipe(postcss([
 			precss(),
-			animation(),
+			  animation(),
 			    hexrgba,
 			     autoprefixer()]))
 		.on('error', function(err){

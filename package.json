@@ -1,7 +1,7 @@
 {
-  "name": "gulp-template",
-  "version": "1.0.0",
-  "description": "An template for automating stuff",
+  "name": "splash page clone",
+  "version": "0.0.3",
+  "description": "Splash page clone for Chingu",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
