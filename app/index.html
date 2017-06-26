@@ -2,62 +2,72 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
     <title>Callie - A Countdown Slack Bot</title>
     <meta name="keywords" content="Slack, team-coordinating, slack-bot, cute dog">
     <meta name="description" content="Callie the Calendar Corgi keeps track of events, deadlines, and more for your team with a few simple commands. Arf!">
-
     <!-- build:css assets/styles/app.css  -->
     <link rel="stylesheet" type="text/css" href="temp/styles/app.css">
     <!-- endbuild -->
-
     <!-- build:js assets/scripts/Vendor.js -->
     <script type="text/javascript" src="/temp/scripts/Vendor.js"></script>
     <!-- endbuild -->
 </head>
 
 <body>
-    <h1>Meet Callie, <br>a countdown bot for Slack.</h1>
-    <h2>Callie the Calendar Corgi keeps track of events, deadlines, and more for your team with a few simple commands. Arf!</h2>
-    <h3>UPDATES: Callie was last updated on April 10th, 2017.</h3>
-    <ul>
-    <li>Some countdowns saved with bad data were unreachable via slack commands. Those are fixed and working now.</li>
-    <li>Scheduled reminders will also now delete events if they happened already or happen on the day of the reminder./li>
-    <li>Error messages are more verbose. Especially if you try saving a countdown with brackets.</li>
-    </ul>
-    <p>This is a one-man side project, so I appreciate the folks who have reached out via email to let me know when they've encountered any issues or bugs. Please continue to do so, and I'll work to keep Callie as consistent and reliable as possible.</p>
-
-    <img src="https://callie-corgi.herokuapp.com/img/callie-screenshot.png">
-    <a href="#">Add to Slack</a>
-
-    <div>
-    <h3>Keep It simple</h3>
-    <p>Just a few commands gives Callie all she needs to keep you and your team informed of upcoming events, trips, or deadlines.</p>
-    </div>
-       <div>
-    <h3>Automated Reminders</h3>
-    <p>Let Callie give you weekly or daily updates on the countdown, and update your settings whenever you like.</p>
-    </div>
-
-   <div>
-    <h3>It's a Cute Dog</h3>
-    <p>That's what we're all here for, really. A cute dog that knows when your stuff is coming up. Right?</p>
-    </div>
-    <div>
-    	Other <br> Fun<br> Things <br>You<br>Might <br>Do
-    </div>
-    <div>
-    <ol>
-    	<li><a href=""> Install Callie</a></li>
-    	<li><a href=""> Send an Email</a></li>
-    	<li><a href=""> Fork a Repo</a></li>
-    	<li><a href=""> Learn 'bout privacy.</a></li>
-    	<li><a href=""> Donate a Dollar <span>It'll keep the lights on for Callie. Thanks!</span></a></li>
-    </ol>
-    </div>
-
-    
+    <section class="hero">
+        <div class="wrapper">
+            <h1>Meet Callie, <br>a countdown bot for Slack.</h1> <img class="hero__callie" src="https://callie-corgi.herokuapp.com/img/corgigirl.png">
+            <h2>Callie the Calendar Corgi keeps track of events, deadlines, and more for your team with a few simple commands. Arf!</h2>
+            <h3>UPDATES: Callie was last updated on April 10th, 2017.</h3>
+            <ul>
+                <li>Some countdowns saved with bad data were unreachable via slack commands. Those are fixed and working now.</li>
+                <li>Scheduled reminders will also now delete events if they happened already or happen on the day of the reminder./li>
+                    <li>Error messages are more verbose. Especially if you try saving a countdown with brackets.</li>
+            </ul>
+            <p>This is a one-man side project, so I appreciate the folks who have reached out via email to let me know when they've encountered any issues or bugs. Please continue to do so, and I'll work to keep Callie as consistent and reliable as possible.</p>
+            <img class="hero__image" src="https://callie-corgi.herokuapp.com/img/callie-screenshot.png">
+            <a href="#">Add to Slack</a>
+        </div>
+    </section>
+    <section class="white">
+        <div class="wrapper">
+            <div>
+                <h3>Keep It simple</h3>
+                <p>Just a few commands gives Callie all she needs to keep you and your team informed of upcoming events, trips, or deadlines.</p>
+            </div>
+            <div>
+                <h3>Automated Reminders</h3>
+                <p>Let Callie give you weekly or daily updates on the countdown, and update your settings whenever you like.</p>
+            </div>
+            <div>
+                <h3>It's a Cute Dog</h3>
+                <p>That's what we're all here for, really. A cute dog that knows when your stuff is coming up. Right?</p>
+            </div>
+        </div>
+    </section>
+    <section class="purple">
+        <div class="wrapper">
+            <div>
+                Other
+                <br> Fun
+                <br> Things
+                <br>You
+                <br>Might
+                <br>Do
+            </div>
+            <div>
+                <ol>
+                    <li><a href=""> Install Callie</a></li>
+                    <li><a href=""> Send an Email</a></li>
+                    <li><a href=""> Fork a Repo</a></li>
+                    <li><a href=""> Learn 'bout privacy.</a></li>
+                    <li><a href=""> Donate a Dollar <span>It'll keep the lights on for Callie. Thanks!</span></a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
     <!-- build:js assets/scripts/App.js -->
     <script type="text/javascript" src="/temp/scripts/App.js"></script>
     <!-- endbuild -->

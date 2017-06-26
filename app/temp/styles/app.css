@@ -1,4 +1,7 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css *//* Document
+.hero__image {
+		max-height: 860px;
+		max-width: 1220px;
+}/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css *//* Document
    ========================================================================== *//**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
@@ -236,6 +239,7 @@ html {
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
+	font-size: 10px;
 }
 
 *, *:after, *:before {
@@ -249,5 +253,31 @@ a {
 
 body {
   	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  	background: orange;
+}
+
+.hero {
+	background: rgba(248,80,50,1);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(100%, rgba(240,181,93,1)));
+	background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(240,181,93,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#f0b55d', GradientType=1 )
+
+}
+
+.hero__callie {
+		max-width: 7rem;
+		max-height: 9rem;
+}
+.purple {
+	background: rgba(0,13,255,1);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,13,255,1)), color-stop(100%, rgba(186,0,140,1)));
+	background: linear-gradient(45deg, rgba(0,13,255,1) 0%, rgba(186,0,140,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000dff', endColorstr='#ba008c', GradientType=1 );
+}
+.wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+    overflow: hidden;
+    max-width: 1236px;
+    margin-left: auto;
+    margin-right: auto;
 }
