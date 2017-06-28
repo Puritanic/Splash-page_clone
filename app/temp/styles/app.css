@@ -1,6 +1,30 @@
-.hero__image {
-		max-height: 860px;
-		max-width: 1220px;
+.hero__issues{
+		font-size: 2.1rem;
+		line-height: 150%;
+		margin-top: 0;
+		margin-bottom: 1.3rem;
+}.hero__list{
+		font-size: 1.4rem;
+		color: #F0F8FF;
+		line-height: 140%;
+}.hero__updates{
+		font-size: 2.1rem;
+		font-weight: 400;
+}.hero__updates--bold{
+		font-weight: 600;
+}.hero__subtitle{
+		font-size: 2.35rem;
+		font-weight: 400;
+		padding-bottom: 2rem;
+		margin-top: 1rem;
+}.hero__title{
+		font-size: 6.3rem;
+		font-weight: 400;
+		line-height: 50%;
+		margin: 2rem 0;
+}.hero__image{
+		width: 100%;
+		vertical-align: middle;
 }/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css *//* Document
    ========================================================================== *//**
  * 1. Correct the line height in all browsers.
@@ -253,19 +277,33 @@ a {
 
 body {
   	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  	color: #F0F8FF;
 }
 
 .hero {
 	background: rgba(248,80,50,1);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(100%, rgba(240,181,93,1)));
 	background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(240,181,93,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#f0b55d', GradientType=1 )
-
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#f0b55d', GradientType=1 ) /*title*/ /*subtitle*//*updates*/ /* list */
 }
 
-.hero__callie {
+.hero__callie{
+		display: inline-block;
 		max-width: 7rem;
 		max-height: 9rem;
+		vertical-align: -15px;
+}
+
+/*hero*/
+
+#add_to_slack {
+	display: block;
+	height: 4rem;
+    width: 14rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+	margin-bottom: 8rem;
+	vertical-align: middle;
 }
 .purple {
 	background: rgba(0,13,255,1);
@@ -277,7 +315,12 @@ body {
     padding-left: 18px;
     padding-right: 18px;
     overflow: hidden;
-    max-width: 1236px;
+    max-width: 1273px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
+
+    
+}
+.wrapper--t-padding{
+    	padding-top:12rem;
 }

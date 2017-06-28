@@ -9,13 +9,60 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#f0b55d', GradientType=1 );
 
 	&__callie{
+		display: inline-block;
 		max-width: 7rem;
 		max-height: 9rem;
+		vertical-align: -15px;
 	}
 
 	&__image {
-		max-height: 860px;
-		max-width: 1220px
+		width: 100%;
+		vertical-align: middle;
 	}
 
-}	
+	&__title {
+		font-size: 6.3rem;
+		font-weight: 400;
+		line-height: 50%;
+		margin: 2rem 0;
+	} /*title*/
+
+	&__subtitle {
+		font-size: 2.35rem;
+		font-weight: 400;
+		padding-bottom: 2rem;
+		margin-top: 1rem;
+	} /*subtitle*/
+
+	&__updates {
+		font-size: 2.1rem;
+		font-weight: 400;
+
+		&--bold{
+			font-weight: 600;
+		} 
+	}/*updates*/
+
+	&__list {
+		font-size: 1.4rem;
+		color: #F0F8FF;
+		line-height: 140%
+	} /* list */
+
+	&__issues {
+		font-size: 2.1rem;
+		line-height: 150%;
+		margin-top: 0;
+		margin-bottom: 1.3rem;
+	}
+}	/*hero*/
+
+#add_to_slack {
+	display: block;
+	height: 4rem;
+    width: 14rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+	margin-bottom: 8rem;
+	vertical-align: middle;
+};

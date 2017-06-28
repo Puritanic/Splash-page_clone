@@ -2,7 +2,14 @@
     padding-left: 18px;
     padding-right: 18px;
     overflow: hidden;
-    max-width: 1236px;
+    max-width: 1273px;
     margin-left: auto;
     margin-right: auto;
+
+    &--t-padding {
+    	padding-top:12rem;
+    }
+
+    
 }
+
