@@ -8,7 +8,7 @@
 	margin-left: auto;
 	margin-right: auto;
 
-	@media $large {
+	@media $medium {
 		padding-left: 6.8%;
 	    padding-right: 6.8%;
 	    overflow: hidden;
