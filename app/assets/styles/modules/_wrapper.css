@@ -1,15 +1,31 @@
 .wrapper {
-    padding-left: 18px;
-    padding-right: 18px;
-    overflow: hidden;
-    max-width: 1273px;
-    margin-left: auto;
-    margin-right: auto;
+
+	padding-left: 2rem;
+	padding-right: 2rem;
+	overflow: hidden;
+	/*max-width: 79.5%;*/
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media $large {
+		padding-left: 6.8%;
+	    padding-right: 6.8%;
+	    overflow: hidden;
+	    max-width: 79.5%;
+	    height: auto;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+    
 
     &--t-padding {
-    	padding-top:12rem;
-    }
 
-    
+    	padding-top:9.5rem;
+
+    	@media $large {
+    		padding-top:12rem;
+    	}
+    }   
 }
 

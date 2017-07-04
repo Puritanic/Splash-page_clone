@@ -13,18 +13,27 @@
 }.hero__updates--bold{
 		font-weight: 600;
 }.hero__subtitle{
+
 		font-size: 2.35rem;
 		font-weight: 400;
 		padding-bottom: 2rem;
 		margin-top: 1rem;
 }.hero__title{
-		font-size: 6.3rem;
+		font-size: 3.6rem;
 		font-weight: 400;
-		line-height: 50%;
+		line-height: 100%;
 		margin: 2rem 0;
+}@media screen and (min-width: 900px) {.hero__title{
+				font-size: 6.3rem;
+				line-height: 50%;
+		}
 }.hero__image{
-		width: 100%;
+		display: none;
 		vertical-align: middle;
+}@media screen and (min-width: 1300px) {.hero__image{
+				display: block;
+				width: 100%;
+		}
 }/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css *//* Document
    ========================================================================== *//**
  * 1. Correct the line height in all browsers.
@@ -257,7 +266,6 @@
  */[hidden] {
   display: none;
 }
-
 html {
 	margin: 0;
 	padding: 0;
@@ -265,29 +273,47 @@ html {
 	        box-sizing: border-box;
 	font-size: 10px;
 }
-
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-
 a {
 	text-decoration: none;	
 }
-
 body {
   	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   	color: #F0F8FF;
 }
+body {  
+	min-width:430px; 
+	}
 
 .hero {
+
 	background: rgba(248,80,50,1);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(100%, rgba(240,181,93,1)));
 	background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(240,181,93,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#f0b55d', GradientType=1 ) /*title*/ /*subtitle*//*updates*/ /* list */
+
 }
 
+@media screen and (min-width: 600px) {.hero{
+		min-height: 100vh;
+		}
+	}
+
+@media screen and (min-width: 900px) {.hero{
+		min-height: 800px;
+		}
+	}
+
+@media screen and (min-width: 1300px) {.hero{
+		max-height: 100%;
+		}
+	}
+
 .hero__callie{
+
 		display: inline-block;
 		max-width: 7rem;
 		max-height: 9rem;
@@ -304,6 +330,8 @@ body {
 	margin-top: 4rem;
 	margin-bottom: 8rem;
 	vertical-align: middle;
+	padding-bottom: 1px;
+	cursor: pointer;
 }
 .purple {
 	background: rgba(0,13,255,1);
@@ -312,15 +340,30 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000dff', endColorstr='#ba008c', GradientType=1 );
 }
 .wrapper {
-    padding-left: 18px;
-    padding-right: 18px;
-    overflow: hidden;
-    max-width: 1273px;
-    margin-left: auto;
-    margin-right: auto
 
-    
+	padding-left: 2rem;
+	padding-right: 2rem;
+	overflow: hidden;
+	/*max-width: 79.5%;*/
+	height: auto;
+	margin-left: auto;
+	margin-right: auto   
 }
+@media screen and (min-width: 1300px) {.wrapper{
+		padding-left: 6.8%;
+	    padding-right: 6.8%;
+	    overflow: hidden;
+	    max-width: 79.5%;
+	    height: auto;
+	    margin-left: auto;
+	    margin-right: auto;
+		}
+	}
 .wrapper--t-padding{
-    	padding-top:12rem;
+
+    	padding-top:9.5rem;
 }
+@media screen and (min-width: 1300px) {.wrapper--t-padding{
+    		padding-top:12rem;
+		}
+    	}
