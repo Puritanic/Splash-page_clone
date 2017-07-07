@@ -12,4 +12,5 @@ $purple:   #6D73C2;
 
 $small: screen and (min-width: 600px);
 $medium: screen and (min-width: 900px);
+$mediumW: screen and (min-width: 1225px);
 $large:  screen and (min-width: 1300px);

@@ -1,5 +1,6 @@
 
 var gulp 		 = require('gulp'),	
+	lost			 = require('lost'),
 	postcss 	 = require('gulp-postcss'),
 	precss 		 = require('precss'),
 	hexrgba		 = require('postcss-hexrgba'),
@@ -14,7 +15,8 @@ gulp.task('styles', function(){
 			precss(),
 			  animation(),
 			    hexrgba,
-			     autoprefixer()]))
+					lost(),
+			     		autoprefixer()]))
 		.on('error', function(err){
 			if (err) {
 				console.log(err.toString());

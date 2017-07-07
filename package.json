@@ -42,6 +42,7 @@
     "imagemin-gifsicle": "^5.1.0",
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-optipng": "^5.2.1",
+    "lost": "^8.1.0",
     "mq4-hover-shim": "^0.3.0",
     "path": "^0.12.7",
     "postcss-animation": "0.0.12",
