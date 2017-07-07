@@ -17,7 +17,7 @@ gulp.task('previewDist', function(){
 
 });
 
-gulp.task('deleteDist',['icons'], function(){ // delete dist folder everytime before starting distributing files in it.
+gulp.task('deleteDist', function(){ // delete dist folder everytime before starting distributing files in it.
 	return del('./docs')
 });
 
