@@ -4,3 +4,4 @@
 
  No bootstrap, made with pure HTML and PostCSS.
  Optimized for legacy browsers, and mobile view!
+ https://puritanic.github.io/Splash-page_clone/
